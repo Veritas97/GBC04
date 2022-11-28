@@ -14,6 +14,6 @@ int SumEXPO(int num1, int num2)
     return sum;
 }
 
-int sum = SumEXPO(numberA, numberB);
+int sumEXPO = SumEXPO(numberA, numberB);
 
-Console.Write($"Натуральное число в кубе - {sum} ");
+Console.Write($"Натуральное число в кубе - {sumEXPO} ");
