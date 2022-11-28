@@ -14,4 +14,4 @@ int SumDigits(int num)
 
 int sumDigits = SumDigits(numberN);
 
-Console.Write($"Ваша сумма всех цифр - {sum} ");
+Console.Write($"Ваша сумма всех цифр - {sumDigits} ");
