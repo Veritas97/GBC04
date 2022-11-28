@@ -12,5 +12,13 @@ void RandomArray(int[] array)
     }
 }
 
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine($"{array[i]}");
+    }
+}
+
 RandomArray(array);
-Console.WriteLine(string.Join(", ", array));
+PrintArray(array);
